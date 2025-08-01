@@ -1,0 +1,11 @@
+[project]
+name = "AutoGen-AI-Agents-Project"
+version = "0.1.0"
+description = "This project demonstrates the use of Microsoft AutoGen framework with Groq's Llama 3.1 model to create conversational AI agents with different roles and capabilities."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "autogen>=0.9.7",
+    "groq>=0.30.0",
+    "python-dotenv>=1.1.1",
+]
